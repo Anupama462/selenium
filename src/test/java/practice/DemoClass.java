@@ -1,9 +1,10 @@
 package practice;
 
 public class DemoClass {
-
+    WebDriver driver;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    driver = new ChromeDriver();
+    driver.manage().window().maximize();
 
 	}
 
