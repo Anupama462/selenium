@@ -27,7 +27,7 @@ public class handlesiframe {
 	/*  WebElement obj = driver.findElement(By.id("iframeResult"));
 	  driver.switchTo().frame(obj);    */
 	  
-	  Thread.sleep(2000);
+	  Thread.sleep(3000);
 	  
 	  driver.findElement(By.xpath("/html/body/button")).click();
 	  Thread.sleep(2000);
