@@ -10,12 +10,13 @@ public class TryCatchblock {
 		try
 		{
 		int[] numbers = {1,2,3,4,};
-		System.out.println(numbers[2]);
+		System.out.println(numbers[0]);
 		}
 		
 		catch(Exception e)
 		{
 			System.out.println(e);
+			System.out.println("something went wrong in ur code");
 		}
 
 	}
