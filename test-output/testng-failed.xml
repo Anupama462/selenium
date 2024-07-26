@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.fileupload">
+      <class name="practice.isDisplayedisEnabledisSelected">
         <methods>
-          <include name="uploadfile"/>
+          <include name="isEnabledmethod"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- practice.fileupload -->
+      </class> <!-- practice.isDisplayedisEnabledisSelected -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
