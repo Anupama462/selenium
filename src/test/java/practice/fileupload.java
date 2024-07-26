@@ -18,6 +18,7 @@ public class fileupload {
 	  driver.findElement(By.xpath("//*[@id=\"field-SUtF8PwfCXGXx46\"]")).sendKeys("techlearn.in");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//*[@id=\"field-8lqEle2zeOhMu0a\"]")).sendKeys("F:\\ANUPAMA\\ANU.jpg");
+	  Thread.sleep(2000);
 	  
   }
  
