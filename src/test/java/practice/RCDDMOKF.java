@@ -71,9 +71,6 @@ public class RCDDMOKF {
 	  Actions act = new Actions(driver);
 	  act.sendKeys(Keys.TAB).build().perform();
 	  
-	  
-	  
-	  
   }
   
   @BeforeTest
