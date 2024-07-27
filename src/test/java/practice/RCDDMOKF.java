@@ -1,12 +1,17 @@
 package practice;
 
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 
 public class RCDDMOKF {
@@ -55,8 +60,12 @@ public class RCDDMOKF {
 	  Actions act = new Actions(driver);
 	  
 	  act.moveToElement(driver.findElement(By.xpath("//*[@id=\"menu-336-1\"]/a"))).build().perform();
-	  Thread.sleep(4000);
-	  driver.findElement(By.xpath("//*[@id=\\\"menu-557-1\\\"]/a")).click();
+	  
+	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"menu-557-1\"]/a")));
+	  
+	  
+	  driver.findElement(By.xpath("//*[@id=\"menu-557-1\"]/a")).click();
 	  
 	//  act.moveToElement(driver.findElement(By.xpath("//*[@id=\"menu-557-1\"]/a"))).build().perform();
 	  

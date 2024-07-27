@@ -2,6 +2,7 @@ package practice;
 
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.ArrayList;
 
 import org.openqa.selenium.By;
@@ -15,9 +16,11 @@ public class handlesiframe {
 	
   @Test
   public void iframes() throws InterruptedException {
-	  driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-	  Thread.sleep(0);
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	  
+	  
+	  driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
+	  	  
 	  driver.switchTo().frame("iframeResult");
 	  
 	  
@@ -27,14 +30,18 @@ public class handlesiframe {
 	/*  WebElement obj = driver.findElement(By.id("iframeResult"));
 	  driver.switchTo().frame(obj);    */
 	  
-	  Thread.sleep(3000);
-	  
+	  	  
 	  driver.findElement(By.xpath("/html/body/button")).click();
-	  Thread.sleep(2000);
-	  
+	  	  
 	  driver.switchTo().alert().accept();
-	  Thread.sleep(2000);
 	  
+	  driver.switchTo().defaultContent();
+	  
+	  driver.findElement(By.xpath("//*[@id=\"getwebsitebtn\"]")).click();
+	  
+	//  driver.findElement(By.xpath("//*[@id=\"subtopnav\"]/a[5]")).click();
+	  
+	  	  
 	  
   }
   
