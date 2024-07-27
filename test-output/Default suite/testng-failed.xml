@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.Scrolldownandup">
+      <class name="practice.RCDDMOKF">
         <methods>
-          <include name="IdentifyLocatorElement"/>
+          <include name="mouseover"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- practice.Scrolldownandup -->
+      </class> <!-- practice.RCDDMOKF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
