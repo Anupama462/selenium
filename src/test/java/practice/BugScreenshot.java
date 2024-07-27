@@ -25,8 +25,9 @@ public class BugScreenshot {
   }
   
   @Test
-  public void googlesearch() {
+  public void googlesearch() throws InterruptedException {
 	 driver.get("https://www.google.com/");
+	 Thread.sleep(2000);
 	 
 	 try
 	 {
