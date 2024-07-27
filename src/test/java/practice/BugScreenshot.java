@@ -3,23 +3,28 @@ package practice;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.BeforeTest;
 
 public class BugScreenshot {
 	WebDriver driver;
 
 	
-	public void BugScreenshot() {
+	public void BugScreenshot() throws WebDriverException, IOException {
+		
+		FileHandler.copy(((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE), new File("G:\\anupama\\Screenshots\\ErrorPageScreenshot.png"));
 		  
-		  File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		  FileUtils.copyFile(f, new File("G:\\anupama\\Screenshots\\ErrorPageScreenshot.png"));
+	//	  File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	//	  FileUtils.copyFile(f, new File("G:\\anupama\\Screenshots\\ErrorPageScreenshot.png"));
 		  
 	  
   }
