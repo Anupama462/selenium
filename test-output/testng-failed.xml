@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.RCDDMOKF">
+      <class name="practice.TestNG_DataProvider">
         <methods>
-          <include name="mouseover"/>
+          <include name="login" invocation-numbers="0 1 2 3 5 6"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- practice.RCDDMOKF -->
+      </class> <!-- practice.TestNG_DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

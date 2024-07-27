@@ -1,21 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-27T14:06:37 IST" name="Default suite" finished-at="2024-07-27T14:06:52 IST" duration-ms="15098">
+  <suite started-at="2024-07-27T19:42:14 IST" name="Default suite" finished-at="2024-07-27T19:42:53 IST" duration-ms="39425">
     <groups>
     </groups>
-    <test started-at="2024-07-27T14:06:37 IST" name="Default test" finished-at="2024-07-27T14:06:52 IST" duration-ms="15098">
-      <class name="practice.RCDDMOKF">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:practice.RCDDMOKF@312aa7c]" started-at="2024-07-27T14:06:37 IST" name="beforeTest" finished-at="2024-07-27T14:06:42 IST" duration-ms="4904" status="PASS">
+    <test started-at="2024-07-27T19:42:14 IST" name="Default test" finished-at="2024-07-27T19:42:53 IST" duration-ms="39425">
+      <class name="practice.TestNG_DataProvider">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:14 IST" name="beforeTest" finished-at="2024-07-27T19:42:18 IST" duration-ms="4816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="mouseover()[pri:0, instance:practice.RCDDMOKF@312aa7c]" started-at="2024-07-27T14:06:42 IST" name="mouseover" finished-at="2024-07-27T14:06:52 IST" duration-ms="9997" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:18 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:24 IST" duration-ms="5246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[navya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseover -->
-      </class> <!-- practice.RCDDMOKF -->
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:24 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:28 IST" duration-ms="3829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nandini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:28 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:31 IST" duration-ms="3392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sudha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[654231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:31 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:35 IST" duration-ms="4288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sravani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:35 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:40 IST" duration-ms="4606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhumathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:40 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:44 IST" duration-ms="3723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[roja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9100201000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:practice.TestNG_DataProvider@7a5ceedd]" started-at="2024-07-27T19:42:44 IST" name="login" data-provider="datainput" finished-at="2024-07-27T19:42:53 IST" duration-ms="9340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chethan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9980251000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- practice.TestNG_DataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
