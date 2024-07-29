@@ -13,6 +13,13 @@ public class Demo14Arrays1D {
 		System.out.println(myIntArray[3]);
 		System.out.println(myIntArray.length);
 		
+	/*	int[] myIntArray1 = {10,20,30,40,50};
+		
+		for(int i=0;i<myIntArray1.length;i++)
+		{
+			System.out.println(myIntArray1[i]);
+		}                                              */
+		
 		int[] myIntArray1 = {10,20,30,40};
 		int myIntArray2[] = {10,20,30,40};
 		System.out.println(myIntArray1[1]);
