@@ -1,9 +1,14 @@
 package MavenFramework.SeleniumTesting;
 
-public class IvecoTruck {
+public class IvecoTruck extends TruckInheritance {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		IvecoTruck iv = new IvecoTruck();
+		iv.loadCapacity();
+		iv.start();
+		iv.stop();
+		
 
 	}
 
