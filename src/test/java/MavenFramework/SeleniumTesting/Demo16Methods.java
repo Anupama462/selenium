@@ -5,7 +5,8 @@ public class Demo16Methods {
 	public static void main(String[] args) {
 	
 		Demo16Methods md = new Demo16Methods();
-		
+	//	md.doLogin();
+		md.doLogout();
 	
 	}
 
