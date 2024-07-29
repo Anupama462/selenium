@@ -1,5 +1,7 @@
 package abstractClasses;
 
-public class CircleChild {
+public class CircleChild extends Circle{
+	
+	
 
 }

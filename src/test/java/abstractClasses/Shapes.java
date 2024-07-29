@@ -6,6 +6,9 @@ public abstract class Shapes {
 
 	public abstract void colorShape(); 
 		
-	public abstract void moveShape(); 
+	public void moveShape()
+	{
+		System.out.println("Move shape");
+	}
 			
 }
